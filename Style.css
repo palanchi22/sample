@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+header
+{
+   background-image: url('images/bg.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Cinzel', serif;
+}
+.note
+{
+	position:fixed;
+	margin-left: 10px;
+	margin-top:200px;
+	
+}
+.main-nav
+{
+	position: absolute;
+    margin-left: 300px;
+	margin-top:200px;
+	color: #ac0404;
+	font-family: 'Cinzel', serif;
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+	
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: #ac0404;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roborto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid #ac0404;
+}
+
+.main-nav li a:hover
+{
+    border: 1.5px solid black;
+	transition: all 0.5s ease-in;
+	color: black;
+    background-color: #ac0404;
+}
+
+.logo img
+{   
+	position: absolute;
+    width: 210px;
+    height: au;
+	margin-top:30px;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+    
+}
+
+h1
+{
+    color: black;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+.note
+{
+	position: absolute;
+	color: #ac0404;
+	font-size: 48px;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-top: 210px;
+	margin-left:330px;
+	font-family: 'Cinzel', serif;
+}
+
+.library
+{
+	position: absolute;
+	color:#ac0404;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 10px;
+	margin-top: 250px;
+	margin-left:930px;
+	font-family: 'Cinzel', serif;
+}
+#demo
+{
+	
+	float: right;
+	color: #ac0404;
+	font-size: 24px;
+	 
+}
+
+.button
+{
+	position:absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.btn
+{
+    border: 1.5px solid #ac0404;
+    padding: 10px 30px;
+    color: #ac0404;
+    text-decoration: none;
+    margin-right: 5px;
+	font-style: solid;
+    font-size: 18px;
+    
+}
+.btn:hover
+{
+	transition: all 0.5s ease-in;
+    background: #ac0404;
+	color : black;
+	
+}
+.footer1 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ac0404;
+  font-size: 18px;
+}
+.pay
+{
+   background-color: Transparent;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Cinzel', serif;
+}
+.pay:hover
+{
+	transition: all 0.5s ease-in;
+	border: 6px solid ;
+}
